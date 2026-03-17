@@ -8,7 +8,7 @@ Re-explaining the project, re-surfacing decisions, re-establishing context that 
 
 Nauro eliminates that.
 
-Nauro maintains a versioned store of your project's goals, decisions, current state, and open questions. Context accumulates passively during configurable milestones and is delivered to any AI agent at session start via [MCP](https://modelcontextprotocol.io/), or through an auto-generated `AGENTS.md` for tools that don't support MCP yet.
+Nauro maintains a versioned store of your project's goals, decisions, current state, and open questions. Context accumulates passively during configurable milestones and is delivered to any AI agent during sessions via [MCP](https://modelcontextprotocol.io/) and through an auto-generated `AGENTS.md`.
 
 **Cross-repo.** One project, many repos, one ground truth.  
 **Passive.** Context updates automatically. No manual maintenance.  
