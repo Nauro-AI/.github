@@ -13,3 +13,5 @@ Nauro maintains a versioned store of your project's goals, decisions, current st
 **Cross-repo.** One project, many repos, one ground truth.  
 **Passive.** Context updates automatically. No manual maintenance.  
 **Versioned.** See how your project's theory evolved over time.
+
+**Contact:** thomas@nauro.ai
