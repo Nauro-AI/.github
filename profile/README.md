@@ -1,17 +1,21 @@
 # Nauro
 
-**The project context service for agentic development.**
+Your project decisions, accessible in every AI tool you use.
 
-Every agent session starts with reconstruction.
+No platform vendor will ever serve your context to a competitor. That's why Nauro exists.
 
-Re-explaining the project, re-surfacing decisions, re-establishing context that already exists somewhere.
+Think about your project across tools like Claude AI (strategy), Perplexity (research), Claude Code (implementation), ChatGPT (writing), Cursor, Cline, etc... where none share context. Every session starts cold. Nauro eliminates that.
 
-Nauro eliminates that.
+## What it does
 
-Nauro maintains a versioned store of your project's goals, decisions, current state, and open questions. Context accumulates passively during configurable milestones and is delivered to any AI agent during sessions via [MCP](https://modelcontextprotocol.io/) and through an auto-generated `AGENTS.md`.
+Nauro maintains a versioned store of your project's decisions, state, and open questions. Context accumulates automatically and delivers to any AI surface via **MCP** and auto-generated `AGENTS.md`.
 
-**Cross-repo.** One project, many repos, one ground truth.  
-**Passive.** Context updates automatically. No manual maintenance.  
-**Versioned.** See how your project's theory evolved over time.
+**Cross-surface, same context.** One project store, readable from Claude AI, Perplexity, Claude Code, Cursor, Cline, and any MCP-connected tool.
 
-**Contact:** thomas@nauro.ai
+**Cross-repo.** One project, many repos, one ground truth.
+
+**Passive capture.** Context updates automatically from git commits and coding sessions. Zero maintenance.
+
+## Contact
+
+**thomas@nauro.ai**
