@@ -1,15 +1,15 @@
 # Nauro
 
-**The project context service for agentic development.**
+**Project context for AI coding agents.**
 
-Every agent session starts with reconstruction.
+Every agent session starts cold. You re-explain the project, re-surface decisions, re-establish context that already exists somewhere.
 
-Re-explaining the project, re-surfacing decisions, re-establishing context that already exists somewhere.
+Nauro fixes that.
 
-Nauro eliminates that.
-
-Nauro maintains a versioned store of your project's goals, decisions, current state, and open questions. Context accumulates passively during configurable milestones and is delivered to any AI agent during sessions via [MCP](https://modelcontextprotocol.io/) and through an auto-generated `AGENTS.md`.
+Nauro maintains a versioned store of your project's goals, decisions, current state, and open questions. Context accumulates from git commits and is delivered to any AI agent via [MCP](https://modelcontextprotocol.io/) and through an auto-generated `AGENTS.md`.
 
 **Cross-repo.** One project, many repos, one ground truth.  
 **Passive.** Context updates automatically. No manual maintenance.  
 **Versioned.** See how your project's theory evolved over time.
+
+**→ [Get started with nauro](https://github.com/nauro-ai/nauro)**
