@@ -1,15 +1,20 @@
 # Nauro
 
-**Project context for AI coding agents.**
+**Your project’s theory, in every agent session.**
 
-Every agent session starts cold. You re-explain the project, re-surface decisions, re-establish context that already exists somewhere.
+New session. The agent knows nothing. You re-explain the architecture, re-surface decisions, correct suggestions you already ruled out. Or worse... at scale, nobody corrects them at all.
 
 Nauro fixes that.
 
-Nauro maintains a versioned store of your project's goals, decisions, current state, and open questions. Context accumulates from git commits and is delivered to any AI agent via [MCP](https://modelcontextprotocol.io/) and through an auto-generated `AGENTS.md`.
+Open-source CLI and MCP server. Captures what you decided, what you rejected, and why. Gives every agent aligned starting context before it touches anything.
 
-**Cross-repo.** One project, many repos, one ground truth.  
-**Passive.** Context updates automatically. No manual maintenance.  
-**Versioned.** See how your project's theory evolved over time.
+Decisional, not observational. Not what agents saw or said... what you chose, what you ruled out, and why.
 
-**→ [Get started with nauro](https://github.com/nauro-ai/nauro)**
+Agents propose decisions. You confirm. Future sessions `check_decision` before contradicting your architecture.
+
+Works across Claude Code, claude.ai, Managed Agents, and Cursor. The theory stays yours, not your platform’s.
+
+Local MCP for coding agents. Remote MCP for any agent on any surface. `AGENTS.md` for non-MCP compatible applications.
+
+[Get started with nauro](https://github.com/nauro-ai/nauro)  
+Contact: thomas@nauro.ai
