@@ -1,6 +1,6 @@
 # Nauro
 
-**Decide once. Every agent inherits it.**
+**Set the direction once. Every agent inherits it.**
 
 New session. The agent knows nothing. You re-explain the architecture, re-surface decisions, correct suggestions you already ruled out. Or worse, with multiple agents running in parallel, nobody catches the drift at all.
 
