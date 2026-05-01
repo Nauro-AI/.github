@@ -1,18 +1,18 @@
 # Nauro
 
-**Your project’s theory, in every agent session.**
+**Set the vision once. Every agent inherits it.**
 
-New session. The agent knows nothing. You re-explain the architecture, re-surface decisions, correct suggestions you already ruled out. Or worse, at scale, nobody corrects them at all.
+New session. The agent knows nothing. You re-explain the architecture, re-surface decisions, correct suggestions you already ruled out. Or worse, with multiple agents running in parallel, nobody catches the drift at all.
 
 Nauro fixes that.
 
-Open-source CLI and MCP server. Captures what you decided, what you rejected, and why. Gives every agent aligned starting context before it touches anything.
+Open-source CLI and MCP server. Captures what you decided, what you rejected, and why. Every agent inherits the project’s direction before it touches anything.
 
 Decisional, not observational. Not what agents saw or said, but what you chose, what you ruled out, and why.
 
-Agents propose decisions. You confirm. Future sessions `check_decision` before contradicting your architecture. Open questions are tracked too, so agents surface unresolved tensions, not just settled decisions.
+Agents call `check_decision` before any change, so they catch drift before it ships. New decisions get proposed; you confirm. Open questions are tracked too, so agents surface unresolved tensions, not just settled decisions.
 
-Works across Claude, Perplexity, Cursor, and more. The theory stays yours, not your platform’s.
+Works across Claude, Perplexity, Cursor, and more. Your decisions stay yours, not your platform’s.
 
 Local MCP for coding agents, one project spanning many repos. Remote MCP for any agent on any surface. `AGENTS.md` for non-MCP compatible applications.
 
