@@ -2,23 +2,18 @@
 
 **Set the vision once. Every agent inherits it.**
 
-New session. The agent knows nothing. You re-explain the architecture, re-surface decisions, correct suggestions you already ruled out. Or worse, with multiple agents running in parallel, nobody catches the drift at all.
+You decide an architectural approach. Three weeks later, a different agent on a different surface proposes the rejected one. Nauro catches it before it ships.
 
-Nauro fixes that.
+> **You:** Should we add a WebSocket endpoint for live task updates?
+>
+> **Agent (via Nauro):** Conflict with a prior decision — the team already chose SSE over WebSocket because persistent connections weren't released during ECS rolling deploys. Proceed only with new evidence.
 
-Open-source CLI and MCP server. Captures what you decided, what you rejected, and why. Every agent inherits the project’s direction before it touches anything.
+Decisions are stored with the reasoning behind them. Without that reasoning, an agent can’t tell whether a rejection still applies when circumstances change, and proposes something you ruled out months ago for reasons it can’t see.
 
-Decisional, not observational. Not what agents saw or said, but what you chose, what you ruled out, and why.
+Decisional, not observational — what you chose, what you ruled out, and why. Drafted with your agent, confirmed by you, then inherited by every connected agent across Claude, Perplexity, ChatGPT, Cursor, and any MCP client. Your decisions stay yours, not your platform’s.
 
-Agents call `check_decision` before any change, so they catch drift before it ships. New decisions get proposed; you confirm. Open questions are tracked too, so agents surface unresolved tensions, not just settled decisions.
+---
 
-Works across Claude, Perplexity, Cursor, and more. Your decisions stay yours, not your platform’s.
+Try it — no account: `pip install nauro && nauro init --demo`
 
-Local MCP for coding agents, one project spanning many repos. Remote MCP for any agent on any surface. `AGENTS.md` for non-MCP compatible applications.
-
-Via MCP, agents pull exactly the context they need. No static file prepended to every session.
-
-Setup takes 1-2 minutes.
-
-[Get started with nauro](https://github.com/nauro-ai/nauro)  
-Contact: thomas@nauro.ai
+**[Get started →](https://github.com/nauro-ai/nauro)** · thomas@nauro.ai
