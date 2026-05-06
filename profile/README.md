@@ -2,15 +2,19 @@
 
 **Set the vision once. Every agent inherits it.**
 
-You decide an architectural approach. Three weeks later, a different agent on a different surface proposes the rejected one. Nauro catches it before it ships.
+You decide an approach. Three weeks later, a different agent on a different surface proposes the one you rejected. Nauro catches the conflict before it becomes work you have to undo.
 
 > **You:** Should we add a WebSocket endpoint for live task updates?
 >
 > **Agent (via Nauro):** Conflict with a prior decision — the team already chose SSE over WebSocket because persistent connections weren't released during ECS rolling deploys. Proceed only with new evidence.
 
-Decisions are stored with the reasoning behind them. Without that reasoning, an agent can’t tell whether a rejection still applies when circumstances change, and proposes something you ruled out months ago for reasons it can’t see.
+Nauro stores decisions with the reasoning behind them: what you chose, what you ruled out, and why.
 
-Decisional, not observational — what you chose, what you ruled out, and why. Drafted with your agent, confirmed by you, then inherited by every connected agent across Claude, Perplexity, ChatGPT, Cursor, and any MCP client. Your decisions stay yours, not your platform’s.
+That reasoning matters. Without it, an agent cannot tell whether a past rejection still applies, so old ideas keep coming back as if they were new.
+
+Decisions can be drafted with your agent, confirmed by you, and inherited by every connected agent across Claude, Perplexity, ChatGPT, Cursor, and any MCP client.
+
+Your decisions stay yours, not your platform’s.
 
 ---
 
