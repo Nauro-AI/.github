@@ -1,8 +1,8 @@
 # Nauro
 
-**Set the vision once. Every agent inherits it.**
+**Set the doctrine once. Every agent inherits it.**
 
-You decide an approach. Three weeks later, a different agent on a different surface proposes the one you rejected. Nauro catches the conflict before it becomes work you have to undo.
+You decide an approach. Three weeks later, a different agent on a different surface proposes the one you rejected. Nauro catches the conflict in the session, before it ships.
 
 > **You:** Should we add a WebSocket endpoint for live task updates?
 >
@@ -14,10 +14,10 @@ That reasoning matters. Without it, an agent cannot tell whether a past rejectio
 
 Decisions can be drafted with your agent, confirmed by you, and inherited by every connected agent across Claude, Perplexity, ChatGPT, Cursor, and any MCP client.
 
-Your decisions stay yours, not your platform’s.
+Your decisions stay yours, not your platform's.
 
 ---
 
-Try it — no account: `pip install nauro && nauro init --demo`
+Try it — no account: `pipx install nauro && nauro init --demo`
 
 **[Get started →](https://github.com/nauro-ai/nauro)** · thomas@nauro.ai
