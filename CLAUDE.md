@@ -23,3 +23,7 @@ Follow the PR template in `.github/PULL_REQUEST_TEMPLATE.md`. Every PR must incl
 ## Tone
 
 Write as if explaining to a teammate who knows the codebase but hasn't been in your head for the last session. Concise, direct, no filler.
+
+# Commit Messages
+
+For squash-merged PRs, the message that lands on `main` comes from the PR squash dialog. See `.github/COMMIT_GUIDE.md` for the template, the 72-char subject rule, the required `Why:` paragraph, the `Refs:` footer convention, and the squash-merge cleanup checklist.
