@@ -20,4 +20,4 @@ Your decisions stay yours, not your platform's.
 
 Try it — no account: `pipx install nauro && nauro init --demo`
 
-**[Get started →](https://github.com/nauro-ai/nauro)** · thomas@nauro.ai
+**[Get started at nauro.ai →](https://nauro.ai)** · [GitHub](https://github.com/nauro-ai/nauro) · thomas@nauro.ai
