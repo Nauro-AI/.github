@@ -1,12 +1,12 @@
 # Nauro
 
-**Set the doctrine once. Every agent inherits it.**
+**Decision system for software built with AI**
 
-You decide an approach. Three weeks later, a different agent on a different surface proposes the one you rejected. Nauro catches the conflict in the session, before it ships.
+You decide an approach. Three weeks later, a different agent on a different surface proposes the one you rejected. Connected agents can look up that decision and its reasoning before choosing an approach.
 
 > **You:** Should we add a WebSocket endpoint for live task updates?
 >
-> **Agent (via Nauro):** Conflict with a prior decision — the team already chose SSE over WebSocket because persistent connections weren't released during ECS rolling deploys. Proceed only with new evidence.
+> **Agent (via Nauro):** Related prior decision: the team chose SSE over WebSocket because persistent connections weren't released during ECS rolling deploys.
 
 Nauro stores decisions with the reasoning behind them: what you chose, what you ruled out, and why.
 
@@ -18,6 +18,6 @@ Your decisions stay yours, not your platform's.
 
 ---
 
-Try it — no account: `pipx install nauro && nauro init --demo`
+Try it, no account: `uv tool install nauro && nauro init --demo`
 
-**[Get started at nauro.ai →](https://nauro.ai)** · [GitHub](https://github.com/nauro-ai/nauro) · thomas@nauro.ai
+**[Get started →](https://nauro.ai/decision-system)** · [GitHub](https://github.com/nauro-ai/nauro) · thomas@nauro.ai
