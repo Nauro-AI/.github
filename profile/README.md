@@ -1,23 +1,26 @@
 # Nauro
 
-**Decision system for software built with AI**
+## Give your next release a testing team.
 
-You decide an approach. Three weeks later, a different agent on a different surface proposes the one you rejected. Connected agents can look up that decision and its reasoning before choosing an approach.
+Nauro Agents explore your app, investigate what breaks and turn findings into checks for the next release.
 
-> **You:** Should we add a WebSocket endpoint for live task updates?
->
-> **Agent (via Nauro):** Related prior decision: the team chose SSE over WebSocket because persistent connections weren't released during ECS rolling deploys.
+Pilots are free and founder-assisted while Nauro Agents are in development.
 
-Nauro stores decisions with the reasoning behind them: what you chose, what you ruled out, and why.
+**[Request a pilot](https://nauro.ai/#pilot)**
 
-That reasoning matters. Without it, an agent cannot tell whether a past rejection still applies, so old ideas keep coming back as if they were new.
+## Keep approved decisions available to your agents.
 
-Decisions can be drafted with your agent, confirmed by you, and inherited by every connected agent across Claude, Perplexity, ChatGPT, Cursor, and any MCP client.
+Your coding agents can retrieve the decisions you approved before they work.
 
-Your decisions stay yours, not your platform's.
+Nauro's decision system is free and open source (Apache-2.0): a CLI and local MCP server for Claude Code, Cursor and Codex.
+
+```bash
+uv tool install nauro
+nauro adopt
+```
+
+**[Set up Nauro](https://nauro.ai/decision-system)** · [GitHub](https://github.com/nauro-ai/nauro)
 
 ---
 
-Try it, no account: `uv tool install nauro && nauro init --demo`
-
-**[Get started →](https://nauro.ai/decision-system)** · [GitHub](https://github.com/nauro-ai/nauro) · thomas@nauro.ai
+thomas@nauro.ai
